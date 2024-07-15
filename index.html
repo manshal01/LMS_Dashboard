@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LMS Dashboard</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">LMS</div>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#"><i class="fa fa-home"></i> Home</a></li>
+                    <li><a href="#"><i class="fa fa-video"></i> Recordings</a></li>
+                    <li><a href="#"><i class="fa fa-tasks"></i> Assignments</a></li>
+                    <li><a href="#"><i class="fa fa-book"></i> Resources</a></li>
+                    <li><a href="#"><i class="fa fa-comments"></i> Forums</a></li>
+                    <li><a href="#"><i class="fa fa-graduation-cap"></i> Grades</a></li>
+                    <li><a href="#"><i class="fa fa-cog"></i> Settings</a></li>
+                </ul>
+            </nav>
+            <div class="user-profile">
+                <img src="user.png" alt="User Profile" class="user-img">
+                <span class="user-name"> Manshal Bhagat</span>
+                <i class="fa fa-cog settings-icon" title="Settings"></i>
+            </div>
+        </header>
+        <main>
+            <div class="progress-section">
+                <h2>Course Progress</h2>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 75%;">75%</div>
+                </div>
+            </div>
+            <div class="upcoming-tasks">
+                <h2>Upcoming Tasks and Classes</h2>
+                <ul>
+                    <li>
+                        <i class="fa fa-file"></i>
+                        <span>Assignment 1 - Due: July 20, 2024</span>
+                    </li>
+                    <li>
+                        <i class="fa fa-pen"></i>
+                        <span>Quiz 2 - Due: July 22, 2024</span>
+                    </li>
+                    <li>
+                        <i class="fa fa-calendar"></i>
+                        <span>Class: React Basics - July 23, 2024</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="resources">
+                <h2>Available Resources</h2>
+                <ul>
+                    <li><a href="#"><i class="fa fa-file-pdf"></i> Course Material 1</a></li>
+                    <li><a href="#"><i class="fa fa-book"></i> E-Book: Learning JavaScript</a></li>
+                    <li><a href="#"><i class="fa fa-file"></i> Additional Readings</a></li>
+                </ul>
+            </div>
+        </main>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
